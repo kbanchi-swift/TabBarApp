@@ -17,6 +17,9 @@
 		805EDFEE273613DC006F9A7E /* TabBarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EDFED273613DC006F9A7E /* TabBarAppTests.swift */; };
 		805EDFF8273613DC006F9A7E /* TabBarAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EDFF7273613DC006F9A7E /* TabBarAppUITests.swift */; };
 		805EDFFA273613DC006F9A7E /* TabBarAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EDFF9273613DC006F9A7E /* TabBarAppUITestsLaunchTests.swift */; };
+		805EE00727361BC2006F9A7E /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE00627361BC2006F9A7E /* PinkViewController.swift */; };
+		805EE00927361BD1006F9A7E /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE00827361BD1006F9A7E /* GreenViewController.swift */; };
+		805EE00B27361BDF006F9A7E /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EE00A27361BDF006F9A7E /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		805EDFF3273613DC006F9A7E /* TabBarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805EDFF7273613DC006F9A7E /* TabBarAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppUITests.swift; sourceTree = "<group>"; };
 		805EDFF9273613DC006F9A7E /* TabBarAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		805EE00627361BC2006F9A7E /* PinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
+		805EE00827361BD1006F9A7E /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		805EE00A27361BDF006F9A7E /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				805EDFD5273613DA006F9A7E /* SceneDelegate.swift */,
 				805EDFD7273613DA006F9A7E /* ViewController.swift */,
 				805EDFD9273613DA006F9A7E /* Main.storyboard */,
+				805EE00627361BC2006F9A7E /* PinkViewController.swift */,
+				805EE00827361BD1006F9A7E /* GreenViewController.swift */,
+				805EE00A27361BDF006F9A7E /* YellowViewController.swift */,
 				805EDFDF273613DC006F9A7E /* Assets.xcassets */,
 				805EDFE1273613DC006F9A7E /* LaunchScreen.storyboard */,
 				805EDFE4273613DC006F9A7E /* Info.plist */,
@@ -261,10 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805EE00927361BD1006F9A7E /* GreenViewController.swift in Sources */,
 				805EDFD8273613DA006F9A7E /* ViewController.swift in Sources */,
 				805EDFD4273613DA006F9A7E /* AppDelegate.swift in Sources */,
+				805EE00B27361BDF006F9A7E /* YellowViewController.swift in Sources */,
 				805EDFD6273613DA006F9A7E /* SceneDelegate.swift in Sources */,
 				805EDFDE273613DA006F9A7E /* TabBarApp.xcdatamodeld in Sources */,
+				805EE00727361BC2006F9A7E /* PinkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
